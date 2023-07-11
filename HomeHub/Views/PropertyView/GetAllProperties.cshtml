@@ -1,0 +1,43 @@
+﻿@model List<PropertyViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>All Properties</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Location</th>
+                <th>Image URL</th>
+                <th>Is Rent</th>
+                <th>Owner ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var property in Model)
+            {
+                <tr>
+                    <td>@property.Id</td>
+                    <td>@property.Title</td>
+                    <td>@property.Description</td>
+                    <td>@property.Price</td>
+                    <td>@property.Location</td>
+                    <td>@property.ImageUrl</td>
+                    <td>@(property.IsRent ? "Yes" : "No")</td>
+                    <td>@property.OwnerId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No properties found.</p>
+}

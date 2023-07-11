@@ -1,0 +1,33 @@
+﻿@model List<OwnerViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>All Owners</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Contact Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var owner in Model)
+            {
+                <tr>
+                    <td>@owner.Id</td>
+                    <td>@owner.Name</td>
+                    <td>@owner.ContactNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No owners found.</p>
+}
+

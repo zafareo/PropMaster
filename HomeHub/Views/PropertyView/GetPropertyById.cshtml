@@ -1,0 +1,64 @@
+﻿@model PropertyViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Property Details</h1>
+
+@if (Model != null)
+{
+    <div>
+        <label>ID:</label>
+        <span>@Model.Id</span>
+    </div>
+
+    <div>
+        <label>Title:</label>
+        <span>@Model.Title</span>
+    </div>
+
+    <div>
+        <label>Description:</label>
+        <span>@Model.Description</span>
+    </div>
+
+    <div>
+        <label>Price:</label>
+        <span>@Model.Price</span>
+    </div>
+
+    <div>
+        <label>Location:</label>
+        <span>@Model.Location</span>
+    </div>
+
+    <div>
+        <label>Image URL:</label>
+        <span>@Model.ImageUrl</span>
+    </div>
+
+    <div>
+        <label>Is Rent:</label>
+        <span>@(Model.IsRent ? "Yes" : "No")</span>
+    </div>
+
+    <div>
+        <label>Owner ID:</label>
+        <span>@Model.OwnerId</span>
+    </div>
+
+    @if (Model.Agents != null && Model.Agents.Count > 0)
+    {
+        <h2>Agents:</h2>
+        <ul>
+            @foreach (var agent in Model.Agents)
+            {
+                <li>@agent.Name</li>
+            }
+        </ul>
+    }
+}
+else
+{
+    <p>Property not found.</p>
+}
+

@@ -1,0 +1,38 @@
+﻿@model OwnerViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Owner Details</h1>
+
+@if (Model != null)
+{
+    <div>
+        <label>ID:</label>
+        <span>@Model.Id</span>
+    </div>
+
+    <div>
+        <label>Name:</label>
+        <span>@Model.Name</span>
+    </div>
+
+    <div>
+        <label>Contact Number:</label>
+        <span>@Model.ContactNumber</span>
+    </div>
+
+    @if (Model.Properties != null && Model.Properties.Count > 0)
+    {
+        <h2>Properties:</h2>
+        <ul>
+            @foreach (var property in Model.Properties)
+            {
+                <li>@property.Title</li>
+            }
+        </ul>
+    }
+}
+else
+{
+    <p>Owner not found.</p>
+}

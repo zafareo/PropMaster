@@ -1,0 +1,35 @@
+﻿@model List<AgentViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>All Agents</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Contact Number</th>
+                <th>Profile Picture</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var agent in Model)
+            {
+                <tr>
+                    <td>@agent.Id</td>
+                    <td>@agent.Name</td>
+                    <td>@agent.ContactNumber</td>
+                    <td>@agent.ProfilePicture</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No agents found.</p>
+}
+

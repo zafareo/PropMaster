@@ -1,0 +1,17 @@
+﻿@using Application.UseCases.Owners.Commands
+@model DeleteOwnerCommand
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Delete Owner</h1>
+
+@using (Html.BeginForm("DeleteOwner", "Owner", FormMethod.Post))
+{
+    <div>
+        <label for="ownerId">Owner ID:</label>
+        <input type="text" id="ownerId" name="ownerId" required>
+    </div>
+
+    <button type="submit">Delete</button>
+}
+

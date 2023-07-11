@@ -1,0 +1,17 @@
+﻿@using Application.UseCases.Properties.Commands
+@model DeletePropertyCommand
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete Property</h1>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <label for="propertyId">Property ID:</label>
+        <input type="text" id="propertyId" name="propertyId" required>
+    </div>
+
+    <button type="submit">Delete</button>
+}

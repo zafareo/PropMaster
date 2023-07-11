@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HomeHub
+build_property.RootNamespace = HomeHub
+build_property.ProjectDir = C:\Users\HP\source\repos\HomeHub\HomeHub\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\HP\source\repos\HomeHub\HomeHub
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/AgentView/CreateAgent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRWaWV3XENyZWF0ZUFnZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/AgentView/DeleteAgent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRWaWV3XERlbGV0ZUFnZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/AgentView/GetAgentById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRWaWV3XEdldEFnZW50QnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/AgentView/GetAllAgents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRWaWV3XEdldEFsbEFnZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/AgentView/UpdateAgent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRWaWV3XFVwZGF0ZUFnZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/OwnerView/CreateOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJWaWV3XENyZWF0ZU93bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/OwnerView/DeleteOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJWaWV3XERlbGV0ZU93bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/OwnerView/GetAllOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJWaWV3XEdldEFsbE93bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/OwnerView/GetOwnerById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJWaWV3XEdldE93bmVyQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/OwnerView/UpdateOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJWaWV3XFVwZGF0ZU93bmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/PropertyView/CreateProperty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlWaWV3XENyZWF0ZVByb3BlcnR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/PropertyView/DeleteProperty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlWaWV3XERlbGV0ZVByb3BlcnR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/PropertyView/GetAllProperties.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlWaWV3XEdldEFsbFByb3BlcnRpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/PropertyView/GetPropertyById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlWaWV3XEdldFByb3BlcnR5QnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/PropertyView/UpdateProperty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlWaWV3XFVwZGF0ZVByb3BlcnR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/RealEstate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/RealEstate/Listings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZVxMaXN0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/RealEstate/Property-Single.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZVxQcm9wZXJ0eS1TaW5nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/RealEstate/Single.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZVxTaW5nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/Shared/_CustomLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/UserView/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclZpZXdcQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/UserView/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclZpZXdcRGVsZXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/UserView/GetAllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclZpZXdcR2V0QWxsVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/UserView/GetUserById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclZpZXdcR2V0VXNlckJ5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/UserView/UpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclZpZXdcVXBkYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/source/repos/HomeHub/HomeHub/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

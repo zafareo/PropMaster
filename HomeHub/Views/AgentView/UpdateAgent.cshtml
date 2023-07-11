@@ -1,0 +1,32 @@
+﻿@using Application.UseCases.Agents.Commands
+@model UpdateAgentCommand
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Update Agent</h1>
+
+@using (Html.BeginForm("UpdateAgent", "Agent", FormMethod.Post))
+{
+    <div>
+        <label for="agentId">Agent ID:</label>
+        <input type="text" id="agentId" name="agentId" required>
+    </div>
+
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div>
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" id="contactNumber" name="contactNumber" required>
+    </div>
+
+    <div>
+        <label for="profilePicture">Profile Picture:</label>
+        <input type="text" id="profilePicture" name="profilePicture" required>
+    </div>
+
+    <button type="submit">Update</button>
+}
+

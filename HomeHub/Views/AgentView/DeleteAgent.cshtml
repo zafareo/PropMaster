@@ -1,0 +1,16 @@
+﻿@using Application.UseCases.Agents.Commands
+@model DeleteAgentCommand
+@{
+     Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Delete Agent</h1>
+
+@using (Html.BeginForm("DeleteAgent", "Agent", FormMethod.Post))
+{
+    <div>
+        <label for="agentId">Agent ID:</label>
+        <input type="text" id="agentId" name="agentId" required>
+    </div>
+
+    <button type="submit">Delete</button>
+}
